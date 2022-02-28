@@ -13,6 +13,7 @@ duck.addEventListener("click", (event) => {
   duck.innerHTML = `PTS: ` + score;
 });
 
+// Search for a keyboard input
 function getKeyboardAndMove(e) {
   let key_code = e.which || e.keyCode;
   switch (key_code) {
