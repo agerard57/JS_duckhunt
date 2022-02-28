@@ -1,17 +1,34 @@
 var duck = document.querySelector(".duck");
 var score = 0;
+var duckShotSfx = new Audio("/src/assets/sfx/duck_shot.wav");
+var gunShotSfx = new Audio("/src/assets/sfx/gun_shot.wav");
 
 function init() {
     duck.style.position = "absolute";
     duck.style.left = "0px";
     duck.style.top = "0px";
+    duck.innerHTML = `PTS: ` + score;
+
 }
 
 // Search for a click on the duck
-duck.addEventListener("click", (event) => {
-    score++;
-    duck.innerHTML = `PTS: ` + score;
+document.addEventListener('click', function(e) {
+    if (!e.target.classList.contains('duck')) {
+        gunShotSfx.play();
+        gunShotSfx.currentTime = 0; // Reset sfx if already playing
+        score === 0 ? score : score--; // This prevents the score from decreasing past 0
+        duck.innerHTML = `PTS: ` + score;
+    } else {
+        score++;
+        duck.innerHTML = `PTS: ` + score;
+        duckShotSfx.play();
+        duckShotSfx.currentTime = 0;
+    }
+
 });
+/* duck.addEventListener("click", (event) => {
+ // Reset sfx if already playing
+}); */
 
 // Search for a keyboard input
 function getKeyboardAndMove(e) {
