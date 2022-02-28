@@ -2,7 +2,7 @@ const hurryValue = 10;
 var timeLeft = 60;
 
 const countdown = setInterval(function() {
-    var counter = document.querySelector("#countdown-counter");
+    let counter = document.querySelector("#countdown-counter");
     counter.style.color = "#06e515";
     counter.innerHTML = timeLeft--;
 
@@ -16,5 +16,6 @@ const countdown = setInterval(function() {
         clearInterval(countdown);
         counter.innerHTML = "END";
         counter.style.color = "red";
+        window.alert("Time expired!");
     }
 }, 1000);
