@@ -7,7 +7,7 @@ function init() {
   duck.style.top = "0px";
 }
 function getKeyAndMove(e) {
-  var key_code = e.which || e.keyCode;
+  let key_code = e.which || e.keyCode;
   switch (key_code) {
     case 37: //left arrow key
       moveLeft();
