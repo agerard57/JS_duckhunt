@@ -31,14 +31,14 @@ img {
 .duck.right.flap {
   background-position: -300px -160px;
 }
-.duck.left {
+.duck {
   background-position: -100px -160px;
 }
-.duck.left.flap {
+.duck.flap {
   background-position: -430px -160px;
 }
 
-.scoreContainer {
+.countdownContainer {
   font-family: "DuckHunt", Helvetica, sans-serif;
   text-align: -webkit-center;
   background-color: black;
@@ -47,6 +47,7 @@ img {
   color: #ffffff;
   top: 5%;
   right: 5%;
+  line-height: 16pt;
   border: 2px solid greenyellow;
   border-radius: 10px;
   display: flex;
@@ -55,14 +56,14 @@ img {
   align-items: center;
 }
 
-#score-text {
+#countdown-text {
   font-size: 1em;
   padding: 5%;
 }
-#score-counter {
+
+#countdown-counter {
   font-family: "DuckHunt", Helvetica, sans-serif;
   font-size: 2em;
   padding: 5%;
   font-weight: bold;
-  color: #06e515;
 }
