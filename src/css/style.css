@@ -9,8 +9,9 @@
 }
 
 html {
-    overflow: hidden;
     /* Hide scrollbars */
+    overflow: hidden;
+    cursor: url('/src/assets/cursors/cursor.cur'), auto;
 }
 
 .bg {
