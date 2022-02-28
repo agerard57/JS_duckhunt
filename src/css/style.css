@@ -18,7 +18,6 @@ img {
 }
 
 .duck {
-  position: absolute;
   background-image: url("/src/assets/img/sprites.png");
   background-position: -100px -160px;
   width: 110px;
@@ -32,15 +31,16 @@ img {
 .duck.right.flap {
   background-position: -300px -160px;
 }
-.duck {
+.duck.left {
   background-position: -100px -160px;
 }
-.duck.flap {
+.duck.left.flap {
   background-position: -430px -160px;
 }
 
 .scoreContainer {
   font-family: "DuckHunt", Helvetica, sans-serif;
+  text-align: -webkit-center;
   background-color: black;
   width: 15%;
   height: 15%;
@@ -56,11 +56,13 @@ img {
 }
 
 #score-text {
-  font-size: 1.5em;
+  font-size: 1em;
+  padding: 5%;
 }
 #score-counter {
   font-family: "DuckHunt", Helvetica, sans-serif;
-  font-size: 3.1em;
+  font-size: 2em;
+  padding: 5%;
   font-weight: bold;
   color: #06e515;
 }
