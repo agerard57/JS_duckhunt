@@ -1,4 +1,4 @@
-const scripts = ["countdown", "duck"];
+const scripts = ["bgm", "countdown", "duck"];
 
 scripts.forEach((element) =>
     document.writeln(

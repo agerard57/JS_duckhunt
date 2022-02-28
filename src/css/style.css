@@ -22,6 +22,30 @@ html {
     background-size: cover;
 }
 
+.bgm-button {
+    background: url("/src/assets/img/sound-mute.png");
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+    top: 5%;
+    left: 5%;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+}
+
+.bgm-button.unmute {
+    background: url("/src/assets/img/sound.png");
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+    top: 5%;
+    left: 5%;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+}
+
 img {
     max-width: 100%;
 }
