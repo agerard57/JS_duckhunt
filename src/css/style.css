@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "DuckHunt";
+  src: URL("/src/assets/fonts/duckhunt.ttf") format("truetype");
+}
+
+.bg {
+  height: 100%;
+  background: url("https://bit.ly/2Q4q14a") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+img {
+  max-width: 100%;
+}
+
+#duck {
+  margin: 50px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+
+.scoreContainer {
+  font-family: "DuckHunt", Helvetica, sans-serif;
+  background-color: black;
+  width: 15%;
+  height: 15%;
+  color: #ffffff;
+  top: 5%;
+  right: 5%;
+  border: 2px solid greenyellow;
+  border-radius: 10px;
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  align-items: center;
+}
+
+#score-text {
+  font-size: 1.5em;
+}
+#score-counter {
+  font-family: "DuckHunt", Helvetica, sans-serif;
+  font-size: 3.1em;
+  font-weight: bold;
+  color: #06e515;
+}
