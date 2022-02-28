@@ -59,6 +59,9 @@ img {
     transition: top 1s, left 1s;
 }
 
+
+/* Non implemented feature */
+
 .duck.right {
     background-position: -200px -160px;
 }
