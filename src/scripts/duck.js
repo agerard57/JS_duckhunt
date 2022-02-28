@@ -1,6 +1,7 @@
 var duck = document.querySelector(".duck");
 var score = 0;
 var duckShotSfx = new Audio("/src/assets/sfx/duck_shot.wav");
+
 var gunShotSfx = new Audio("/src/assets/sfx/gun_shot.wav");
 
 function init() {
@@ -8,7 +9,6 @@ function init() {
     duck.style.left = "0px";
     duck.style.top = "0px";
     duck.innerHTML = `PTS: ` + score;
-
 }
 
 // Search for a click on the duck
@@ -26,9 +26,6 @@ document.addEventListener('click', function(e) {
     }
 
 });
-/* duck.addEventListener("click", (event) => {
- // Reset sfx if already playing
-}); */
 
 // Search for a keyboard input
 function getKeyboardAndMove(e) {
@@ -76,7 +73,3 @@ function moveDown() {
 }
 
 window.onload = init;
-console.log(duck.offsetWidth);
-/* console.log(parseInt(duck.style.left, 10));
-  alert(window.innerWidth);
-alert(window.innerHeight); */
