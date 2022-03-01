@@ -1,14 +1,15 @@
 # Duck Hunt (in JS)
 
+This project is a small game that was made in class in a few hours using only vanilla JS.
+
 ## Table of Contents
 
 * [Rules](#rules)
-  * [Project Structure](#project-structure)
-  * [Screenshot](#screenshot)
-  * [Special Features](#special-features)
-    * [Sound effects](#sound-effects)
-  * [Assets used](#assets-used)
-This project is a small game that was made in class in a few hours using only vanilla JS.
+* [Project Structure](#project-structure)
+* [Screenshot](#screenshot)
+* [Special Features](#special-features)
+  * [Sound effects](#sound-effects)
+* [Assets used](#assets-used)
 
 ## Rules
 
