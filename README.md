@@ -52,6 +52,7 @@ index.html
 There is a mute-unmute button that toggles the background music. Either way, SFX (eg. gunshots) are present in the game.
 
 ## Assets used
+
 * Cursor :
 [scope](https://www.cursor.cc/?action=icon&file_id=92498)
 
