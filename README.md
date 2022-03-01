@@ -52,6 +52,8 @@ index.html
 There is a mute-unmute button that toggles the background music. Either way, SFX (eg. gunshots) are present in the game.
 
 ## Assets used
+* Cursor :
+[scope](https://www.cursor.cc/?action=icon&file_id=92498)
 
 * Background music :
 [Super DanganRonpa 2 OST: -3-21- Discussion -HEAT UP- [8bit]](https://www.youtube.com/watch?v=Hltx4jQ4444)
